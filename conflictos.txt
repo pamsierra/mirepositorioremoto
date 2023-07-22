@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-Este es un contenido para hacer pruebas de contenido.
-=======
 Este es un contenido para hacer pruebas generando conflicto intensionales.
->>>>>>> segunda-rama-confl
