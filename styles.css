@@ -1,0 +1,488 @@
+/* Estilos generales */
+
+/*
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://4kwallpapers.com/images/wallpapers/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png'); /* Reemplaza 'ruta/a/la/imagen.jpg' por la ruta de tu imagen de fondo 
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos del encabezado 
+  .container-nav {
+    background-color: #6A5ACD(126, 76, 167);
+    color: #fff;
+    padding: 10px;
+    /*AGREGADO*
+    height: 50px;
+    display: flex;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* AGREGADO*
+    background-color: #6A5ACD; /* Color azul medio*
+    color: #ffffff; /* Color blanco para las letras *
+    width: 100%;
+  }
+  
+  .brand {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+   /* AGREGADO*
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   /* AGREGADO*
+    align-items: center;
+  }
+  .button-menu-toggle {
+    display: none;
+}
+  .nav-links li {
+    margin-left: 10px;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+ }
+ @media (max-width: 600px) {
+    .column{
+        flex: 100%;
+    }
+ }
+
+  @media (max-width:768px) {s
+    .column {
+        flex: 100%;
+    }
+
+    .nav-links{
+        display: none;
+    }
+   .button-menu-toggle {
+     background-color: #fff;
+     color: #0e0a1b;
+     border: none;
+     padding: 10px;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 5px; /* Añadido: hacer el botón redondeado *
+     /*AGREGADO*
+     display: block;
+     font-family: monospace;
+     font-weight: bold;
+    }
+    /*PARA QUE LA PANTALLA DE ADAPTE*
+    .nav-links.nav-links-responsive {
+        position: absolute;
+        display: flex;
+        background-color: rgba(20,20,20,0.95);
+        width: 100%;
+        height: 100%;
+        top:70px;
+        left: 0;
+        flex-direction: column;
+        padding-top: 200px;
+        align-items: center;
+        gap: 70px;
+        font-size: 40px;
+    }
+  }
+  /* Estilos de la sección principal *
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    /*AGREGADO*
+    font-family: 'Arial',sans-serif; 
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .row {
+    display: flex;
+    margin-bottom: 20px;
+    /*AGREGADO*
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 8px;
+    /*AGREGADO*
+    
+  }
+  
+  section {
+    margin-bottom: 2px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    /*AGREGADO*
+    font-family: 'Arial',sans-serif; 
+    text-align: center;
+    color: #ffffff;
+}
+  
+  
+  p {
+    margin-bottom: 10px;
+    /*AGREGADO*
+    font-family:'Georgia', serif;
+    font-size: 18px;
+    padding: 10px;
+    margin: 20px;
+    color: #fff;
+  }
+  
+  /* Estilos del video *
+  .video {
+    width: 100%;
+    max-width: 560px;
+    margin: 20px auto;
+    /*Agregado*
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  /* Estilos del pie de página *
+  footer {
+    background-color: rgb(6, 0, 20); /* Añadido: fondo azul claro *
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    /*AGREGADO*
+    min-height: 200px;
+
+  }
+
+  footer p {
+    margin: 90;
+  }
+  
+  button[aria-label="Haz clic en mí"] {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 20px; /* Añadido: hacer el botón redondeado *
+    /*AGREGADO*
+    font-family:'Georgia', serif;
+
+  }
+
+  /* Alinear el botón de menú a la derecha *
+  .nav-links {
+    margin-left: auto;
+  }
+
+
+/*SERVICE pagina*
+.services {
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .service {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin: 0 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .service h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .service p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /*nuevo css*/
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://4kwallpapers.com/images/wallpapers/blue-sky-half-moon-crescent-moon-clouds-star-trails-5k-3840x2160-8404.png');
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+/*Código de box (Caja)*/
+.fondo-texto-a {
+  background: rgba(147, 135, 255, 0.8); /* Establece el color de fondo */
+  padding: 1px; /* Agrega un espacio de relleno alrededor del texto */
+  border-radius: 30px; /* Establece el radio de las esquinas para que el fondo sea redondeado */
+  border: 2px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+.fondo-texto-b {
+  background: rgb(131, 122, 207, 0.6); /* Establece el color de fondo */
+  padding: px; /* Agrega un espacio de relleno alrededor del texto */
+  border-radius: 30px; /* Establece el radio de las esquinas para que el fondo sea redondeado */
+  border: 2px solid  rgb(131, 122, 207);
+  
+}
+
+.fondo-texto-c {
+  background:rgb(131, 122, 207, 0.4) ; /* Establece el color de fondo */ /*rgba(153, 122, 193, 0.7)*/
+  padding: 0px; /* Agrega un espacio de relleno alrededor del texto */
+  border-radius: 30px; /* Establece el radio de las esquinas para que el fondo sea redondeado */
+  margin: 5px;
+}
+
+/* Estilos del encabezado */
+.container-nav {
+  background-color: #6A5ACD;
+  color: #fff;
+  padding: 10px;
+  height: 50px;
+  display: flex;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6A5ACD;
+  color: #ffffff;
+  width: 100%;
+}
+
+.brand {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li {
+  margin-left: 10px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-menu-toggle {
+  display: none;
+}
+
+.nav-links.nav-links-responsive {
+  position: absolute;
+  display: flex;
+  background-color: rgba(20, 20, 20, 0.95);
+  width: 100%;
+  height: 100%;
+  top: 70px;
+  left: 0;
+  flex-direction: column;
+  padding-top: 200px;
+  align-items: center;
+  gap: 70px;
+  font-size: 40px;
+}
+
+@media (max-width: 768px) {
+  .column {
+    flex: 100%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  .button-menu-toggle {
+    background-color: #fff;
+    color: #0e0a1b;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    font-family: monospace;
+    font-weight: bold;
+  }
+}
+
+/* Estilos de la sección principal */
+h1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, sans-serif; 
+  top: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, sans-serif; 
+  margin: 10px;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #ffffff;
+  font-family: Arial, sans-serif; 
+  margin: 10px;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.column {
+  flex: 1;
+  padding: 8px;
+}
+
+section {
+  margin-bottom: 2px;
+}
+
+p {
+  margin-bottom: 30px;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  padding: 10px;
+  color: #fff;
+}
+
+/* Estilos del video */
+.video {
+  width: 100%;
+  max-width: 560px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+/* Estilos del pie de página */
+footer {
+  background-color: rgb(6, 0, 20);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  min-height: 200px;
+}
+
+footer p {
+  margin: 90;
+}
+
+button[aria-label="Haz clic en mí"] {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 20px;
+  font-family: Georgia, serif;
+}
+
+/* Alinear el botón de menú a la derecha */
+.nav-links {
+  margin-left: auto;
+}
+
+/* Estilos de la sección de servicios */
+.services {
+  text-align: center;
+}
+
+.services h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.service {
+  display: inline-block;
+  vertical-align: top;
+  width: 300px;
+  margin: 0 20px;
+}
+
+.service img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.service h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+/*pagina "acerca de"*/
+.greeting {
+  text-align: center;
+}
